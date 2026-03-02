@@ -9,6 +9,7 @@ public class ExceptionTest {
             throw new MyException(1235);
         } catch (MyException e) {
             System.out.println("Caught exception: " +e.getMessage());
+            System.out.println("new changes done...");
         }
 
         try {
